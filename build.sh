@@ -5,7 +5,7 @@
 #   - no-cache = disables build cache. Forces Docker to rebuild the image from scratch
 #   - pull = forces Docker to get the latest base image
 #   - -t = gives image a name and optionally a version/tag
-docker build --no-cache --pull -t pxnd4n/ros2-dev .
+docker build --no-cache --pull -t pxnd4n/ros2-test .
 
 
 
